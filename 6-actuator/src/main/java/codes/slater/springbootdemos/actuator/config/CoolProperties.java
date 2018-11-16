@@ -17,7 +17,7 @@ public class CoolProperties {
         this.firstName = firstName;
     }
 
-    public boolean isCool() {
+    public boolean cool() {
         return cool;
     }
 

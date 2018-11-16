@@ -14,7 +14,7 @@ import static org.junit.Assert.assertTrue;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ConfigTest {
-    
+
     @Autowired
     CoolProperties coolProperties;
 
@@ -23,7 +23,7 @@ public class ConfigTest {
 
 
         assertEquals("Michael",coolProperties.getFirstName());
-        assertTrue(coolProperties.isCool());
+        assertTrue(coolProperties.cool());
 
     }
 
