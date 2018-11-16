@@ -7,12 +7,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import java.util.LinkedList;
-import java.util.List;
 
 @Service
 public class LifecycleBean {
-
 
     private static final Logger  LOG = LoggerFactory.getLogger(LifecycleBean.class);
 

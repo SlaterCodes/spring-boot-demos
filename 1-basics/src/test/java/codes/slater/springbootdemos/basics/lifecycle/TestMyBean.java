@@ -18,8 +18,9 @@ public class TestMyBean {
     @Test
     public void testLifecycleOrder() {
 
-        // Only call myFunc()... init() and destroy() are called for us
+        /// init() and destroy() are invoked by Spring
         lifecycleBean.myFunc();
+
         // Observe LOG output
 
     }
