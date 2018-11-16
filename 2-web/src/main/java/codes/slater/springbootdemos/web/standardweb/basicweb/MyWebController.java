@@ -1,4 +1,4 @@
-package codes.slater.springbootdemos.web.standardweb.example;
+package codes.slater.springbootdemos.web.standardweb.basicweb;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
