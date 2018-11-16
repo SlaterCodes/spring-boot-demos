@@ -14,7 +14,6 @@ public class DataController {
 
     private final DataRepo dataRepo;
 
-
     @Autowired
     public DataController(DataRepo dataRepo) {
         this.dataRepo = dataRepo;
@@ -38,10 +37,5 @@ public class DataController {
     @GetMapping("/all")
     public Flux<DataModel> findAll() {
         return dataRepo.findAll();
-    }
-
-    @GetMapping("/test")
-    public Mono<String> test() {
-        return Mono.just("test");
     }
 }
