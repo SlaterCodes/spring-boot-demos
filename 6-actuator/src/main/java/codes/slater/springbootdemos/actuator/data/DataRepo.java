@@ -1,4 +1,4 @@
-package codes.slater.springbootdemos.actuator;
+package codes.slater.springbootdemos.actuator.data;
 
 
 import org.springframework.data.repository.CrudRepository;

@@ -1,4 +1,4 @@
-package codes.slater.springbootdemos.actuator;
+package codes.slater.springbootdemos.actuator.data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
