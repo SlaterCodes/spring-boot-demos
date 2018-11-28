@@ -9,6 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.*;
 
 /**
  *
@@ -27,7 +28,7 @@ public class StandardTest {
 
 		String hello = myWebController.hello();
 
-		Assert.assertEquals("Hello Spring Web!", hello);
+		assertEquals("Hello Spring Web!", hello);
 
 	}
 
