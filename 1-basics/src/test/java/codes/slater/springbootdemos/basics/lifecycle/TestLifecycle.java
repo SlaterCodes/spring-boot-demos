@@ -10,12 +10,11 @@ import static org.junit.Assert.*;
 
 /**
  * @SpringBootTest uses the spring-test package and indicates this is an integration test
- *
  * @RunWith(SpringRunner) is making JUnit aware of the Spring context
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class TestMyBean {
+public class TestLifecycle {
 
     @Autowired
     LifecycleBean lifecycleBean;
